@@ -12,7 +12,9 @@
     <style name="textLayout">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@drawable/rect_round_shape</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:color">#000000</item>
+        <item name="android:background">@drawable/rect_round_shape1</item>
     </style>
 
 </resources>
