@@ -12,12 +12,7 @@
     <style name="textLayout">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-    </style>
-
-    <!-- image layout style -->
-    <style name="imageLayout">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/rect_round_shape</item>
     </style>
 
 </resources>

@@ -3,88 +3,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/rect_round_shape"
     tools:context="com.example.android.helloandroid.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
+        android:src="@drawable/udacity_courses"
         android:scaleType="centerCrop"
-        android:src="@drawable/udacity_courses" />
+        android:paddingBottom="64dp"/>
 
     <TextView
         style="@style/textLayout"
         android:text="@string/school"
-        android:textSize="72sp" />
+        android:textSize="72sp"
+        android:background="@drawable/rect_round_shape"/>
 
     <TextView
         style="@style/textLayout"
-        android:layout_weight="1"
         android:text="@string/moto"
+        android:paddingBottom="24dp"
         android:textSize="24sp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal">
 
-        <TextView
-            style="@style/textLayout"
-            android:text="@string/adress1" />
+    <TextView
+        style="@style/textLayout"
+        android:text="@string/adress1" />
 
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal">
+    <TextView
+        style="@style/textLayout"
+        android:drawableLeft="@drawable/ic_place"
+        android:drawablePadding="4dp"
+        android:drawableStart="@drawable/ic_place"
+        android:text="@string/adress2" />
 
-        <ImageView
-            style="@style/imageLayout"
-            android:src="@drawable/ic_place" />
 
-        <TextView
-            style="@style/textLayout"
-            android:text="@string/adress2" />
+    <TextView
+        style="@style/textLayout"
+        android:drawableLeft="@drawable/ic_local_phone"
+        android:drawablePadding="4dp"
+        android:drawableStart="@drawable/ic_local_phone"
+        android:text="@string/phone" />
 
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal">
-
-        <ImageView
-            style="@style/imageLayout"
-            android:src="@drawable/ic_local_phone" />
-
-        <TextView
-            style="@style/textLayout"
-            android:text="@string/phone" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        android:layout_weight="0.05">
-
-        <ImageView
-            style="@style/imageLayout"
-            android:src="@drawable/ic_public" />
-
-        <TextView
-            style="@style/textLayout"
-            android:text="@string/url" />
-
-    </LinearLayout>
+    <TextView
+        style="@style/textLayout"
+        android:drawableLeft="@drawable/ic_public"
+        android:drawablePadding="4dp"
+        android:drawableStart="@drawable/ic_public"
+        android:text="@string/url" />
 
 
 </LinearLayout>
