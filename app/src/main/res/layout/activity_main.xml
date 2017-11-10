@@ -19,6 +19,7 @@
     <TextView
         style="@style/textLayout"
         android:text="@string/school"
+        android:textStyle="bold"
         android:textSize="72sp"
         android:background="@drawable/rect_round_shape"/>
 
@@ -32,11 +33,13 @@
 
     <TextView
         style="@style/textLayout"
+        android:textSize="16sp"
         android:text="@string/adress1" />
 
 
     <TextView
         style="@style/textLayout"
+        android:textSize="16sp"
         android:drawableLeft="@drawable/ic_place"
         android:drawablePadding="4dp"
         android:drawableStart="@drawable/ic_place"
@@ -45,6 +48,7 @@
 
     <TextView
         style="@style/textLayout"
+        android:textSize="16sp"
         android:drawableLeft="@drawable/ic_local_phone"
         android:drawablePadding="4dp"
         android:drawableStart="@drawable/ic_local_phone"
@@ -53,6 +57,7 @@
 
     <TextView
         style="@style/textLayout"
+        android:textSize="16sp"
         android:drawableLeft="@drawable/ic_public"
         android:drawablePadding="4dp"
         android:drawableStart="@drawable/ic_public"
