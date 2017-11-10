@@ -25,6 +25,7 @@
     <TextView
         style="@style/textLayout"
         android:text="@string/moto"
+        android:textStyle="italic"
         android:paddingBottom="24dp"
         android:textSize="24sp" />
 
