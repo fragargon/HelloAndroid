@@ -14,7 +14,7 @@
         android:contentDescription="@string/desc"
         android:src="@drawable/udacity_courses"
         android:scaleType="centerCrop"
-        android:paddingBottom="64dp"/>
+        android:paddingBottom="36dp"/>
 
     <TextView
         style="@style/textLayout"
@@ -27,7 +27,7 @@
         style="@style/textLayout"
         android:text="@string/moto"
         android:textStyle="italic"
-        android:paddingBottom="24dp"
+        android:paddingBottom="8dp"
         android:textSize="24sp" />
 
 
