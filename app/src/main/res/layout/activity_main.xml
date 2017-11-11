@@ -3,65 +3,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/rect_round_shape"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:background="@drawable/rect_round_shape"
     tools:context="com.example.android.helloandroid.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
-        android:src="@drawable/udacity_courses"
+        android:paddingBottom="36dp"
         android:scaleType="centerCrop"
-        android:paddingBottom="36dp"/>
+        android:src="@drawable/udacity_courses"/>
 
     <TextView
         style="@style/textLayout"
         android:text="@string/school"
-        android:textStyle="bold"
         android:textSize="72sp"
-        android:background="@drawable/rect_round_shape"/>
+        android:textStyle="bold"/>
 
     <TextView
         style="@style/textLayout"
-        android:text="@string/moto"
-        android:textStyle="italic"
         android:paddingBottom="8dp"
-        android:textSize="24sp" />
+        android:text="@string/moto"
+        android:textSize="24sp"
+        android:textStyle="italic" />
 
 
     <TextView
         style="@style/textLayout"
-        android:textSize="16sp"
-        android:text="@string/adress1" />
+        android:text="@string/adress1"
+        android:textSize="16sp" />
 
 
     <TextView
         style="@style/textLayout"
-        android:textSize="16sp"
         android:drawableLeft="@drawable/ic_place"
         android:drawablePadding="4dp"
         android:drawableStart="@drawable/ic_place"
-        android:text="@string/adress2" />
+        android:text="@string/adress2"
+        android:textSize="16sp" />
 
 
     <TextView
         style="@style/textLayout"
-        android:textSize="16sp"
         android:drawableLeft="@drawable/ic_local_phone"
         android:drawablePadding="4dp"
         android:drawableStart="@drawable/ic_local_phone"
-        android:text="@string/phone" />
+        android:text="@string/phone"
+        android:textSize="16sp" />
 
 
     <TextView
         style="@style/textLayout"
-        android:textSize="16sp"
         android:drawableLeft="@drawable/ic_public"
         android:drawablePadding="4dp"
         android:drawableStart="@drawable/ic_public"
-        android:text="@string/url" />
+        android:text="@string/url"
+        android:textSize="16sp" />
 
 
 </LinearLayout>
